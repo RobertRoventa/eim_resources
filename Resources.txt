@@ -1,0 +1,49 @@
+  <EditText
+        android:id="@+id/keystrokes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:saveEnabled="false"
+        android:gravity="center"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+Log.d("Intent1", "Cancel");
+Toast.makeText(getApplication(), "cancel", Toast.LENGTH_LONG).show();
+
+setText(String.valueOf(++INTEGER));
+
+if(savedInstanceState != null) {
+
+//Listener             
+    private class ButtonAddListener implements View.OnClickListener{
+        @Override
+        public void onClick(View v) {
+            
+        }
+    }
+
+
+// Salvare/restaurare Activitate 
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+       
+    }
